@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countect Us</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+
+<body>
+    <div class="show">
+        <i class="fa fa-bars" onclick="show()"></i>
+    </div>
+    <section class="links" id="links">
+        <ul>
+            <i class="fa fa-times-circle" onclick="hide()"></i>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blug.html">Blug</a></li>
+            <li><a href="countectus.html">Contect Us</a></li>
+        </ul>
+    </section>
+    <script>
+        var links = document.getElementById("links");
+
+        function show() {
+            links.style.right = "0px";
+        }
+
+        function hide() {
+            links.style.right = "-200px"
+
+        }
+    </script>
+    <!--second section-->
+    <section class="imge">
+        <div class="text">
+            <h1>Call Us </h1><br><br>
+            <p> Lorem ipsum <br> dolor sit amet.</p>
+
+        </div>
+    </section>
+    <section class="input">
+    </section>
+    <!--third section -->
+    <br><br><br>
+    <section class="tit">
+        <h1>You can contect with us</h1>
+        <p>send your supject to us </p>
+    </section>
+    <br><br><br>
+
+    <section class="info">
+        <form action="rest">
+            <legend>
+                <input type="text" placeholder="User Name">
+                <br><br>
+                <input type="email" placeholder="Email Address">
+                <br><br>
+                <input type="password" placeholder="Password">
+                <br><br>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="sup.."></textarea>
+                <br><br><br>
+                <button>send</button>
+            </legend>
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

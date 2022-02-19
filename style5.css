@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.links{
+
+position: absolute;
+right: 50px;
+top: 30px;
+}
+ul{
+    list-style: none;
+    
+}
+
+ul li {
+   
+   
+  
+    display: inline-block;
+    padding: 10px;
+
+
+
+}
+
+
+.imge{
+    background-image: url(pic/pexels-olha-ruskykh-7504896.jpg);
+    height: 80vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.text h1{
+   
+  
+  
+   
+    color: white;
+    font-size: 5rem;
+   
+}
+.text p{
+   
+  
+ 
+    
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+   
+}
+.text{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+
+}
+.show{
+    position: absolute;
+    display: none;
+
+}
+.links .fa{
+    display: none;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.links a::after{
+    display: block;
+    content: '';
+    width: 00%;
+    height: 2px;
+    background-color: tomato;
+    transition: 1s;
+}
+.links a:hover::after{
+    width: 100%;
+}
+.info{
+    height: 100vh;
+    text-align: center;
+   
+    margin: auto;
+}
+.tit{
+    text-align: center;
+}
+.tit h1{
+    font-size: 3rem;
+}
+.tit p{
+    font-weight: 300;
+}
+input[type="text"]{
+width: 500px;
+height: 20px;
+text-align: center;
+border-radius: 10px;
+border:2px rgba(0, 0, 0, 0.183) solid;
+
+}
+input[type="email"]{
+width: 500px;
+height: 20px;
+text-align: center;
+border-radius: 10px;
+border:2px rgba(0, 0, 0, 0.183) solid;
+    
+    
+}
+input[type="password"]{
+width: 500px;
+height: 20px;
+text-align: center;
+border-radius: 10px;
+border:2px rgba(0, 0, 0, 0.183) solid;
+        
+        
+}
+textarea{
+
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+border:2px rgba(0, 0, 0, 0.183) solid;
+resize: none;
+
+
+}
+button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border:2px rgba(0, 0, 0, 0.183) solid;
+    
+}
+button:hover{
+    width: 90px;
+    transition-duration: 1s;
+}
+@media (max-width:700px) {
+
+
+    .imge{
+        background-image: url(pic/pexels-olha-ruskykh-7504896.jpg);
+        height: 80vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .links{
+
+        position: absolute;
+        background-color: rgba(11, 86, 78, 0.544);
+      height: 100vh;
+        top: 30px;
+        right: -200px;
+        z-index: 5px;
+        transition: 1s;
+        border-radius: 5px;
+        }
+        ul{
+            list-style: none;
+            
+        }
+        
+        ul li {
+           
+           
+          
+            display: block;
+            padding: 30px;
+        
+        
+        
+        }
+
+        .show{
+            display: block;
+            cursor: pointer;
+            color: white;
+            top: 30px;
+            left: 30px;
+        }
+        .links .fa{
+            padding: 10px;
+            display: block;
+            color: white;
+            cursor: pointer;
+                }
+     
+.text h1{
+    font-size: 3rem;
+}   
+.text p{
+    font-size: 2rem;
+}             
+
+
+input[type="text"]{
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border:2px rgba(0, 0, 0, 0.183) solid;
+    
+    }
+    input[type="email"]{
+        width: 300px;
+        height: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border:2px rgba(0, 0, 0, 0.183) solid;
+        
+        }
+    
+        input[type="password"]{
+            width: 300px;
+            height: 20px;
+            text-align: center;
+            border-radius: 10px;
+            border:2px rgba(0, 0, 0, 0.183) solid;
+            
+            }
+        
+        
+            textarea{
+
+                width: 300px;
+                height: 100px;
+                text-align: center;
+                border-radius: 10px;
+            border:2px rgba(0, 0, 0, 0.183) solid;
+            resize: none;
+            
+            
+            }
+    
+
+
+
+
+
+
+
+}
+
